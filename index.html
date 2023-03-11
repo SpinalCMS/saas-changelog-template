@@ -1,0 +1,151 @@
+<!doctype html>
+
+<html lang="en" class="font-sans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Tailwind CSS-based changelog template</title>
+  <meta name="description" content="A changelog template built with Tailwind CSS">
+  <meta name="author" content="Spinal developers">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <section class="w-full max-w-5xl px-2 py-6 md:py-12 mx-auto text-center">
+    <h1 class="text-3xl font-bold">
+      Changelog
+    </h1>
+
+    <p class="mt-3 text-xl text-gray-600 md:text-2xl">
+      Find all the new features, improvemements and bugfixes here.
+    </p>
+  </section>
+
+  <section class="px-2 py-12 md:mt-12 bg-gradient-to-b from-gray-50 to-white">
+    <ul class="relative w-full max-w-5xl mx-auto">
+      <span class="absolute bottom-0 left-0 hidden w-1 rounded bg-gray-200/60 top-3 translate-x-2 md:block" aria-hidden="true"></span>
+
+      <li class="flex flex-col items-start md:flex-row">
+        <h3 class="flex items-center w-full mb-3 space-x-3 md:w-1/3">
+          <span class="z-10 hidden block w-5 h-5 bg-white border-4 border-gray-300 rounded-full md:block"></span>
+
+          <time datetime="2023-03-07" class="text-xl font-semibold tracking-tight text-gray-800">7 March 2023</time>
+        </h3>
+
+        <div class="w-full space-y-2 md:w-2/3">
+          <p>
+            <span class="inline-block px-2 py-1 text-sm font-medium leading-none text-green-700 rounded-full bg-gradient-to-br from-green-200 to-green-100">
+              New
+            </span>
+          </p>
+
+          <p class="text-gray-700">
+            Added support for multiple languages
+          </p>
+
+          <p>
+            <span class="inline-block px-2 py-1 mt-5 text-sm font-medium leading-none text-red-700 rounded-full bg-gradient-to-br from-red-200 to-red-100">
+              Bugfix
+            </span>
+          </p>
+
+          <p class="text-gray-700">
+            Fixed a bug where the app would crash when opening certain files
+          </p>
+
+          <p>
+            <span class="inline-block px-2 py-1 mt-5 text-sm font-medium leading-none text-indigo-700 rounded-full bg-gradient-to-br from-indigo-200 to-indigo-100">
+              Improvement
+            </span>
+          </p>
+
+          <p class="text-gray-700">
+            Improved the app's performance for faster load times and smoother user experience
+          </p>
+        </div>
+      </li>
+
+      <li class="flex flex-col items-start mt-20 md:flex-row">
+        <h3 class="flex items-center w-full mb-3 space-x-3 md:w-1/3">
+          <span class="z-10 hidden block w-5 h-5 bg-white border-4 border-gray-300 rounded-full md:block"></span>
+
+          <time datetime="2023-02-17" class="text-xl font-semibold tracking-tight text-gray-800">17 February 2023</time>
+        </h3>
+
+        <div class="w-full space-y-2 md:w-2/3">
+          <p>
+            <span class="inline-block px-2 py-1 text-sm font-medium leading-none text-green-700 rounded-full bg-gradient-to-br from-green-200 to-green-100">
+              New
+            </span>
+          </p>
+
+          <p class="text-gray-700">
+            Introduced a new onboarding flow for first-time users
+          </p>
+
+          <p>
+            <span class="inline-block px-2 py-1 mt-5 text-sm font-medium leading-none text-red-700 rounded-full bg-gradient-to-br from-red-200 to-red-100">
+              Bugfix
+            </span>
+          </p>
+
+          <p class="text-gray-700">
+            Addressed an issue where user preferences were not being saved properly
+          </p>
+
+          <p>
+            <span class="inline-block px-2 py-1 mt-5 text-sm font-medium leading-none text-indigo-700 rounded-full bg-gradient-to-br from-indigo-200 to-indigo-100">
+              Improvement
+            </span>
+          </p>
+
+          <p class="text-gray-700">
+            Streamlined the checkout process to reduce the number of steps required
+          </p>
+        </div>
+      </li>
+
+      <li class="flex flex-col items-start mt-20 md:flex-row">
+        <h3 class="flex items-center w-full mb-3 space-x-3 md:w-1/3">
+          <span class="z-10 hidden block w-5 h-5 bg-white border-4 border-gray-300 rounded-full md:block"></span>
+
+          <time datetime="2023-01-24" class="text-xl font-semibold tracking-tight text-gray-800">24 January 2023</time>
+        </h3>
+
+        <div class="w-full space-y-2 md:w-2/3">
+          <p>
+            <span class="inline-block px-2 py-1 text-sm font-medium leading-none text-green-700 rounded-full bg-gradient-to-br from-green-200 to-green-100">
+              New
+            </span>
+          </p>
+
+          <p class="text-gray-700">
+            Implemented a new dashboard design for better data visualization
+          </p>
+
+          <p>
+            <span class="inline-block px-2 py-1 mt-5 text-sm font-medium leading-none text-red-700 rounded-full bg-gradient-to-br from-red-200 to-red-100">
+              Bugfix
+            </span>
+          </p>
+
+          <p class="text-gray-700">
+            Addressed an issue where user preferences were not being saved properly
+          </p>
+
+          <p>
+            <span class="inline-block px-2 py-1 mt-5 text-sm font-medium leading-none text-indigo-700 rounded-full bg-gradient-to-br from-indigo-200 to-indigo-100">
+              Improvement
+            </span>
+          </p>
+
+          <p class="text-gray-700">
+            Increased the amount of available storage space for user files
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>
+</body>
+</html>
