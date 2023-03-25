@@ -9,7 +9,7 @@ A simple HTML + Tailwind CSS template for a SaaS changelog. Ready to be copied a
 1. Copy and paste the HTML from `index.html` into your favourite [static site generator](https://spinalcms.com/built-for/)
 2. Make tweaks to match your site's brand
 
-_Note:_ this example use the CDN version of Tailwind CSS. This is not a recommended approach for production sites._
+_Note:_ this example use the CDN version of Tailwind CSS. This is not a recommended approach for production sites.
 
 ## Sponsored By [Spinal](https://spinalcms.com/)
 
